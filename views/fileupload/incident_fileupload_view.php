@@ -15,7 +15,7 @@
 				
 				if (preg_match("/mp/", $file_name)) {
 				
-				print '<script type="text/javascript" src="http://video.112.ua/player/jwplayer.js"></script><div id="video">This text will be replaced</div>
+				print '<script type="text/javascript" src="http://video.112.ua/player/jwplayer.js"></script><div id="video"></div>
 				<script type="text/javascript">jwplayer("video").setup({"flashplayer": "http://video.112.ua/player/player.swf", 
 				"file": "'.$prefix.'/'.$file_name.'","width": "480","height": "320",});</script>';
 				
@@ -23,7 +23,7 @@
 				
 				if (preg_match("/gp/", $file_name)) {
 				
-				print '<script type="text/javascript" src="http://video.112.ua/player/jwplayer.js"></script><div id="video">This text will be replaced</div>
+				print '<script type="text/javascript" src="http://video.112.ua/player/jwplayer.js"></script><div id="video"></div>
 				<script type="text/javascript">jwplayer("video").setup({"flashplayer": "http://video.112.ua/player/player.swf", 
 				"file": "'.$prefix.'/'.$file_name.'","width": "480","height": "320",});</script>';
 				

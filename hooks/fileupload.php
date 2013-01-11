@@ -405,7 +405,7 @@ class fileupload {
 				}
 				else
 				{
-					$fileupload_item->file_title = "NO DESCRIPTION GIVEN";
+					$fileupload_item->file_title = "ОПИСАНИЕ ОТСУТСТВУЕТ";
 				}
 				
 				//set the time of this file being uploaded
